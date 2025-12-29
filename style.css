@@ -1,0 +1,60 @@
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+header p {
+    text-align: center;
+}
+
+header h1 {
+    scale: 2;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+    background-image: url("bg.png");
+    background-size: cover;
+    font-family: 'Comic Relief', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px 140px;
+    border-radius: 50px;
+    color: white;
+    transform: scale(2);
+    transform-origin: center;
+}
+
+.card h1 {
+    text-align: center;
+}
+
+.beegh1 {
+    scale: 2;
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.container button {
+    display: block;
+    margin: 0 auto;
+}
