@@ -71,4 +71,11 @@ footer {
     inset: 0;
 
     background: url("linux-logo.png") center/contain no-repeat;
+    opacity: 0.2;
+    z-index: 0;      
+}
+
+.card > * {
+    position: relative;
+    z-index: 1;
 }
